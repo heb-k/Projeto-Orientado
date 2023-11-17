@@ -1,0 +1,23 @@
+propriedades novas:
+
+
+1.  transform: scale
+foi usada para aumentar proporcionalmente o tamanho de alguns elementos
+
+2.  box-shadow
+foi usada para adicionar uma sombra em volta de um elemento
+
+3.  display: inline-block
+foi usada para alinhar uma div com outra 
+
+4.  background-size: cover
+redimensiona a imagem de fundo para que são do elemento em que está inseridaela cubra toda a exten
+
+5.  box-sizing: border-box
+muda como o tamanho total de um elemento é calculado, adicionando ao cálculo o padding e o border
+
+6.  resize: none
+desativa o redimensionamento da text area pelo usuario
+
+7.  cursor: pointer
+transforma o cursor do mouse em uma mãozinha quando este está sobre certo elemento.

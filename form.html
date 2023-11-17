@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <h1>Projeto Orientado</h1>
+        
+        <a href="index.html">Home</a> |
+        <a href="alunoh.html">Héber Kayke</a> |
+        <a href="alunor.html">Rafael de Carvalho</a> |
+        <a href="tabela.html">Tabela de curiosidades</a> |
+        <a href="lista.html">Lista de Favoritos</a> |
+        <a href="#">Contato</a>
+
+        <h2>Fale conosco</h2>
+
+        <form id="contato" action="http://hub.fatecrl.edu.br/sobrino/recebe-v2.php">
+            <label for="nomeContato">Nome: </label>
+            <input type="text" class="text" id="nomeContato" name="nomeContato" maxlength="30" required>
+                
+            <label for="emailContato">Email: </label>
+            <input type="email" class="email" id="emailContato" name="emailContato" maxlength="40" required>
+
+            <label for="assuntoContato">Assunto: </label>
+            <input type="text" class="text" id="assuntoContato" name="assuntoContato" maxlength="30" required>         
+
+            <label for="mensagemContato">Mensagem: </label>
+            <textarea required name="mensagemContato" id="mensagemContato"></textarea>
+
+
+            <label>Com quem deseja falar: </label>
+            <br>
+            
+            <input class="radio" type="radio" id="alunoContato-H" name="alunoContato" value="heber"  required>
+            <label for="alunoContato-H">Héber</label>
+            <input class="radio" type="radio" id="alunoContato-R" name="alunoContato" value="rafael" >
+            <label for="alunoContato-R">Rafael</label>
+            <br>
+
+            <input class="enviar" type="submit" value="Enviar">
+        </form>
+    </body>
+</html>

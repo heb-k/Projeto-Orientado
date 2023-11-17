@@ -1,0 +1,182 @@
+/* PADROES */
+
+body {
+    background-image: url(../img/fundo3.jpg);
+    background-size: cover;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:25px;
+    color:aliceblue    
+}
+
+img{
+    border-radius: 20%;
+}
+img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+a{
+    font-size: 28px;
+    color:rgb(83, 183, 255);
+}
+a:hover{
+    color:rgb(255, 255, 255)
+}
+
+p{
+    margin: 0px 20% 0px 20%;
+    font-size: 28px;
+}
+
+/* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
+
+/* iNDEX */
+
+.alunos{
+    text-align: center;
+}
+.aluno{
+    display: inline-block;
+    margin: 0px 50px 0px 50px;
+}
+
+/* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
+
+/* TABELA */
+
+table{
+    margin: auto;
+    padding: 3px;
+    background-color: rgb(46, 90, 121);
+    color: white;
+    border-radius: 20px;
+}
+.tabela th:hover, td:hover{
+    background-color: rgb(26, 79, 117);;
+}
+.tabela td{
+    padding: 10px;
+    border: 5px solid #BB2237; 
+    border-radius: 20px;
+}
+.tabela th{
+    padding: 10px;
+    border: 5px solid #ccc;
+    border-radius: 20px;
+}
+
+/* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
+
+/* LISTA */
+
+.lista{
+    text-align: center;
+}
+.um{
+    display: inline-block;
+    margin: 0px 50px 0px 50px;
+    border: 5px solid #ccc;
+    border-radius: 20px;
+    width: 25%;
+}
+
+ul{
+    padding: 15px;
+    text-align: center;
+}
+li {
+    list-style-type: none;
+    text-align: center;
+    margin: 30px;
+    border: 3px solid black ;
+}
+li:hover{
+    border-color: white;
+}
+li a{
+    color: white;
+}
+li a:hover{
+    color: black;
+}
+
+.yt{
+    padding: 10px;
+    margin: 10px;
+    background-color: red;
+    border-radius: 20px;
+}
+.az{
+    padding: 10px;
+    margin: 10px;
+    background-color: #FFA41C;
+    border-radius: 20px;
+}
+.bet{
+    padding: 10px;
+    margin: 10px;
+    background-color: #126E51;
+    border-radius: 20px;
+}
+.rate{
+    padding: 10px;
+    margin: 10px;
+    background-color: #1F6FB1;
+    border-radius: 20px;
+}
+.alura{
+    padding: 10px;
+    margin: 10px;
+    background-color: #071D38;
+    border-radius: 20px;
+}
+
+/* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* *//* */
+
+/* FORM */
+
+#contato {
+    width: 500px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 5px solid #ccc;
+    border-radius: 20px;
+}
+
+#mensagemContato{
+    height: 100px;    
+}
+
+
+.text, .email, textarea {
+    font-size: 20px;
+    border-radius: 20px;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    resize: none;
+    /* overflow-y: auto; */
+}
+
+.radio{
+    transform: scale(1.5);
+    margin: 10px;
+}
+
+.enviar {
+    font-size: 20px;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.enviar:hover {
+    background-color: #0056b3;
+}
